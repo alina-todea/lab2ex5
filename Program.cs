@@ -13,9 +13,9 @@ namespace Lab2ex5
             Console.WriteLine("Introduceti un numar");
             int n = int.Parse(Console.ReadLine());
 
-            Piramida(n);
+            AfiseazaPiramida(n);
         }
-        static void Piramida(int n)
+        static void AfiseazaPiramida(int n)
         {
             for (int i = 2; i <=n; i+=2)
             {
