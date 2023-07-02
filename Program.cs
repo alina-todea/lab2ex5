@@ -13,8 +13,10 @@ namespace Lab2ex5
             Console.WriteLine("Introduceti un numar");
             int n = int.Parse(Console.ReadLine());
 
-
-
+            Piramida(n);
+        }
+        static void Piramida(int n)
+        {
             for (int i = 2; i <=n; i+=2)
             {
                 for (int j = 1; j <= i; j++)
